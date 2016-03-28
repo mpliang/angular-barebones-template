@@ -1,0 +1,27 @@
+#summaryPanel {
+  z-index: 10;
+
+  .summaryRow {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .summaryHead {
+    background-color: #f5f5f5;
+    padding-top: 1em;
+    .progress {
+      height: 1.5em;
+      border-radius: 4px;
+    }
+    .progress-bar {
+      font-size: .75em;
+      line-height: .75em;
+    }
+  }
+}
+
+@media (min-width: $screen-md) {
+  #summaryPanel {
+    left: 4em;
+  }
+}

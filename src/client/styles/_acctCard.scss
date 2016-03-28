@@ -1,0 +1,30 @@
+.acctCard {
+  position: relative;
+  &:hover {
+    
+  }
+
+  i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .acctInfo {
+    display: inline-block;
+    margin-left: 2em;
+  }
+  .progress {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    height: 1.5em;
+    width: 50%;
+    line-height: 1.5em;
+    border-radius: 4px;
+  }
+  .progress-bar {
+    font-size: .75em;
+    line-height: .75em;
+  }
+}
